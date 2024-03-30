@@ -23,7 +23,7 @@ const Withdraw = () => {
       setMessage('Insufficient funds for this withdrawal.');
       setAlertVariant('warning');
     } else {
-      fetch('https://banking-backend-dogj.onrender.com/withdraw', {
+      fetch('https://banking-backend-dogj.onrender.com/users/withdraw', {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${token}`,

@@ -25,7 +25,7 @@ const Deposit = () => {
       return;
     }
 
-    fetch('https://banking-backend-dogj.onrender.com/deposit', {
+    fetch('https://banking-backend-dogj.onrender.com/users/deposit', {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${token}`,

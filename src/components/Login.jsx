@@ -22,7 +22,7 @@ const Login = () => {
     event.preventDefault();
     if (validateForm()) {
       
-      fetch('https://banking-backend-dogj.onrender.com/login', {
+      fetch('https://banking-backend-dogj.onrender.com/users/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
