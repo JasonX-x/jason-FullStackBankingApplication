@@ -28,7 +28,7 @@ const CreateAccount = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (validateForm()) {
-      fetch("http://localhost:3000/users/register", {
+      fetch("https://banking-backend-dogj.onrender.com/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -15,7 +15,7 @@ function App() {
   const token = localStorage.getItem('token')
 
   useEffect(()=>{
-    fetch('http://localhost:3000/users/profile',{
+    fetch('https://banking-backend-dogj.onrender.com/profile',{
       headers: {
         'Authorization': `Bearer ${token}`
       }
